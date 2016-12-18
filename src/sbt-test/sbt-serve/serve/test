@@ -1,3 +1,4 @@
 # check if file is served
 > serve
-$ sleep 10000
+$ sleep 5000
+> check
