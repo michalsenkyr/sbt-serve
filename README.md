@@ -1,4 +1,4 @@
-# sbt-serve
+# sbt-serve [![Build Status](https://travis-ci.org/michalsenkyr/sbt-serve.svg?branch=master)](https://travis-ci.org/michalsenkyr/sbt-serve)
 
 WARNING: This project is still in its pre-alpha stage and is not ready for general usage.
 
