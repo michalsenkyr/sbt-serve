@@ -1,1 +1,0 @@
-addSbtPlugin("com.github.michalsenkyr" % "sbt-serve" % "1.0.0-SNAPSHOT")

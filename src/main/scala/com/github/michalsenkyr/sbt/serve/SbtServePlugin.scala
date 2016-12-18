@@ -34,18 +34,17 @@ object SbtServePlugin extends AutoPlugin with SimpleRoutingApp {
 
   object autoImport {
     val port = settingKey[Int]("Port")
-    val sourceDirectory = settingKey[File]("Static files source")
     val serve = taskKey[Unit]("Serve static files")
-    // val resourceDirectory = settingKey[File]("Directory name inside package")
+    // val packagePath = settingKey[File]("Path inside package")
   }
 
   import autoImport._
 
   override lazy val projectSettings = Seq(
     port in serve := 8000,
-    sourceDirectory in serve := new File("src/main/web"),
+    sourceDirectory in serve := file("src/main/web"),
     serve := serveTask.value
-    // resourceDirectory in serve := new File("web")
+    // packagePath in serve := new File("web")
   )
 
   lazy val serveTask =
