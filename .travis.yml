@@ -1,3 +1,2 @@
 language: scala
-script:
-        - sbt scripted
+scala: 2.10.6
