@@ -29,4 +29,4 @@ New project settings:
 - `port in serve` - Port on which to serve the files (default 8000)
 - `sourceDirectory in serve` - Directory to serve (default src/main/web)
 
-sbt-serve uses [Spary.io](https://spray.io) internally. Its Akka actor system name is "sbt-serve"
+sbt-serve uses [Spray.io](https://spray.io) internally. Its Akka actor system name is "sbt-serve"
