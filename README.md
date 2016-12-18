@@ -9,17 +9,23 @@ Simply reads a source directory and serves its contents.
 ## Usage
 
 1. Clone, build and publish the project into your local repository
+
     ```bash
     git clone https://github.com/michalsenkyr/sbt-serve.git && sbt publishLocal
     ```
+
 2. Add the plugin to your project (in `plugins/serve.sbt`):
+
     ```scala
     addSbtPlugin("com.github.michalsenkyr" % "sbt-serve" % "1.0.0-SNAPSHOT")
     ```
+
 3. Enable the plugin in your `build.sbt`:
+
     ```scala
     enablePlugins(SbtServePlugin)
     ```
+
 4. Run `sbt serve`
 
 ## Configuration
