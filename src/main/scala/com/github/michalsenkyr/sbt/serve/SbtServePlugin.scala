@@ -44,7 +44,7 @@ object SbtServePlugin extends AutoPlugin with SimpleRoutingApp {
   override lazy val projectSettings = Seq(
     port in serve := 8000,
     sourceDirectory in serve := new File("src/main/web"),
-    serve := serveTask.value,
+    serve := serveTask.value
     // resourceDirectory in serve := new File("web")
   )
 
